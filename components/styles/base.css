@@ -1,0 +1,78 @@
+/*
+ * UMBRAL SELFBOT — Design Tokens
+ */
+
+:root {
+  --sb-bg: #070a12;
+  --sb-bg-1: #0e1423;
+  --sb-bg-2: #151d30;
+  --sb-bg-3: #1a253d;
+  --sb-bg-4: #202f4d;
+  --sb-bg-5: #29385c;
+  --sb-border: #2f3d61;
+  --sb-border-mid: #3a4f7d;
+  --sb-border-strong: #4d679d;
+  --sb-text: #b7c4e3;
+  --sb-text-bright: #edf2ff;
+  --sb-text-white: #fff;
+  --sb-text-muted: #8292b7;
+  --sb-text-dim: #5a6891;
+  --sb-accent: #5fd4ff;
+  --sb-accent-2: #ff5e86;
+  --sb-accent-soft: rgb(95 212 255 / 18%);
+  --sb-success: #58d89a;
+  --sb-warning: #f7bd52;
+  --sb-danger: #ff6673;
+  --sb-toggle-off: #263555;
+  --sb-toggle-on: #5fd4ff;
+  --sb-toggle-thumb-off: #8ea2d4;
+  --sb-toggle-thumb-on: #06111f;
+  --sb-btn-bg: rgb(95 212 255 / 10%);
+  --sb-btn-hover: rgb(95 212 255 / 16%);
+  --sb-btn-active: rgb(95 212 255 / 24%);
+  --sb-btn-danger-bg: rgb(255 102 115 / 15%);
+  --sb-btn-danger-hov: rgb(255 102 115 / 24%);
+  --sb-btn-danger-txt: #ffb3bc;
+  --sb-input-bg: rgb(8 13 22 / 88%);
+  --sb-input-border: #334366;
+  --sb-input-focus: #5fd4ff;
+  --sb-radius: 14px;
+  --sb-radius-sm: 10px;
+  --sb-titlebar-h: 56px;
+  --sb-tabbar-h: 34px;
+  --sb-grip: 6px;
+  --sb-z: 9000;
+  --sb-t: 170ms cubic-bezier(.2, .8, .2, 1);
+  --sb-t-slow: 320ms cubic-bezier(.2, .8, .2, 1);
+  --sb-shadow-lg: 0 26px 60px rgb(0 0 0 / 52%);
+  --sb-shadow-md: 0 14px 36px rgb(0 0 0 / 36%);
+  --sb-gradient-main: linear-gradient(150deg, rgb(95 212 255 / 16%), rgb(255 94 134 / 12%) 58%, rgb(247 189 82 / 9%));
+  --sb-gradient-surface: linear-gradient(180deg, rgb(255 255 255 / 6%), rgb(255 255 255 / 0%));
+  --sb-font: "Space Grotesk", "Manrope", "Segoe UI", sans-serif;
+  --sb-font-body: "Manrope", "Segoe UI", sans-serif;
+  --sb-mono: "JetBrains Mono", "IBM Plex Mono", "Cascadia Mono", monospace;
+  --sb-xs: 11px;
+  --sb-sm: 12px;
+  --sb-md: 13px;
+  --sb-lg: 14px;
+  --sb-xl: 16px;
+  --selfbot-bg: var(--sb-bg-1);
+  --selfbot-bg-secondary: var(--sb-bg-2);
+  --selfbot-bg-tertiary: var(--sb-bg-3);
+  --selfbot-border: var(--sb-border);
+  --selfbot-border-light: var(--sb-border-mid);
+  --selfbot-accent: var(--sb-accent);
+  --selfbot-accent-alt: var(--sb-accent-2);
+  --selfbot-text-primary: var(--sb-text-bright);
+  --selfbot-text-secondary: var(--sb-text);
+  --selfbot-text-muted: var(--sb-text-muted);
+  --selfbot-success: var(--sb-success);
+  --selfbot-danger: var(--sb-danger);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --sb-t: 1ms linear;
+    --sb-t-slow: 1ms linear;
+  }
+}
